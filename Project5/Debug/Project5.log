@@ -1,0 +1,9 @@
+﻿  main.cpp
+  creatures.cpp
+g:\video game grade\1st course\programing i\rpg + string libraries\rpg_fighter_-_handout\rpg fighter 17 agache vladimir\project5\creatures.cpp(360): warning C4474: 'printf' : too many arguments passed for format string
+  g:\video game grade\1st course\programing i\rpg + string libraries\rpg_fighter_-_handout\rpg fighter 17 agache vladimir\project5\creatures.cpp(360): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+g:\video game grade\1st course\programing i\rpg + string libraries\rpg_fighter_-_handout\rpg fighter 17 agache vladimir\project5\creatures.cpp(553): warning C4474: 'printf' : too many arguments passed for format string
+  g:\video game grade\1st course\programing i\rpg + string libraries\rpg_fighter_-_handout\rpg fighter 17 agache vladimir\project5\creatures.cpp(553): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  Generating Code...
+  Project5.vcxproj -> G:\VIDEO GAME Grade\1ST Course\PROGRAMING I\RPG + String Libraries\RPG_Fighter_-_handout\RPG Fighter 17 Agache Vladimir\Debug\RPG Fighter.exe
+  Project5.vcxproj -> G:\VIDEO GAME Grade\1ST Course\PROGRAMING I\RPG + String Libraries\RPG_Fighter_-_handout\RPG Fighter 17 Agache Vladimir\Debug\RPG Fighter.pdb (Full PDB)
