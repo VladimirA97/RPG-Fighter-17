@@ -1,0 +1,25 @@
+﻿  creatures.cpp
+creatures.cpp(15): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  creatures.cpp(15): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  creatures.cpp(15): note: the missing variadic argument 2 is required by format string '%s'
+  creatures.cpp(15): note: this argument is used as a buffer size
+creatures.cpp(69): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  creatures.cpp(69): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  creatures.cpp(69): note: the missing variadic argument 2 is required by format string '%c'
+  creatures.cpp(69): note: this argument is used as a buffer size
+creatures.cpp(136): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  creatures.cpp(136): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  creatures.cpp(136): note: the missing variadic argument 2 is required by format string '%c'
+  creatures.cpp(136): note: this argument is used as a buffer size
+creatures.cpp(202): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  creatures.cpp(202): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  creatures.cpp(202): note: the missing variadic argument 2 is required by format string '%c'
+  creatures.cpp(202): note: this argument is used as a buffer size
+creatures.cpp(269): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  creatures.cpp(269): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  creatures.cpp(269): note: the missing variadic argument 2 is required by format string '%c'
+  creatures.cpp(269): note: this argument is used as a buffer size
+creatures.cpp(360): warning C4474: 'printf' : too many arguments passed for format string
+  creatures.cpp(360): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+creatures.cpp(553): warning C4474: 'printf' : too many arguments passed for format string
+  creatures.cpp(553): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided

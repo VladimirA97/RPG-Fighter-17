@@ -12,7 +12,7 @@ void hero_name_scan(char** pheroname)//Ask Hero Name
 	int name_space = 15;
 	*pheroname = (char*)malloc(name_space);
 	fflush(stdin);
-	scanf("%s", *pheroname);
+	scanf_s("%s", *pheroname);
 }
 
 void capitalize(char* capital)//Capitalizes All Hero Name
@@ -66,7 +66,7 @@ void levels(monster_data goblin, hero_data hero)
 					printf("\n _____________________________________________________________________________");
 					printf("\n            You now have %d COINS, do you want to trade them (- 25)? ", hero.coins);
 					printf("\n  ([H] to increase HP and ARMOR / [A] to increase ATTACKS / [ENTER] to avoid) ");
-					scanf("%c", &market);
+					scanf_s("%c", &market);
 
 					if (market == 'h' || market == 'H')
 					{
@@ -133,7 +133,7 @@ void levels(monster_data goblin, hero_data hero)
 					printf("\n _____________________________________________________________________________");
 					printf("\n            You now have %d COINS, do you want to trade them (- 75)? ", hero.coins);
 					printf("\n  ([H] to increase HP and ARMOR / [A] to increase ATTACKS / [ENTER] to avoid) ");
-					scanf("%c", &market);
+					scanf_s("%c", &market);
 
 					if (market == 'h' || market == 'H')
 					{
@@ -199,7 +199,7 @@ void levels(monster_data goblin, hero_data hero)
 					printf("\n _____________________________________________________________________________");
 					printf("\n           You now have %d COINS, do you want to trade them (- 125)? ", hero.coins);
 					printf("\n  ([H] to increase HP and ARMOR / [A] to increase ATTACKS / [ENTER] to avoid) ");
-					scanf("%c", &market);
+					scanf_s("%c", &market);
 
 					if (market == 'h' || market == 'H')
 					{
@@ -266,7 +266,7 @@ void levels(monster_data goblin, hero_data hero)
 					printf("\n _____________________________________________________________________________");
 					printf("\n           You now have %d COINS, do you want to trade them (- 200)? ", hero.coins);
 					printf("\n  ([H] to increase HP and ARMOR / [A] to increase ATTACKS / [ENTER] to avoid) ");
-					scanf("%c", &market);
+					scanf_s("%c", &market);
 
 					if (market == 'h' || market == 'H')
 					{

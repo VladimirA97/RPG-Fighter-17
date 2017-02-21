@@ -30,13 +30,13 @@ int main()
 	
 	fflush(stdin);
 	printf(" HP: ");
-	scanf("%d", &hp);
+	scanf_s("%d", &hp);
 	printf(" ATTACK_MIN: ");
-	scanf("%d", &attack_min);
+	scanf_s("%d", &attack_min);
 		
 	printf(" ATTACK_MAX: ");
 	label_attack_max_check:
-	scanf("%d", &attack_max);
+	scanf_s("%d", &attack_max);
 
 	if (attack_max <= attack_min)
 	{
@@ -45,7 +45,7 @@ int main()
 	}
 
 	printf(" ARMOR: ");
-	scanf("%d", &armor);
+	scanf_s("%d", &armor);
 
 	hero.combat.hp = hp;
 	hero.combat.attack_min = attack_min;
@@ -72,7 +72,7 @@ int main()
 
 	printf("\n _____________________________________________________________________________");
 	printf("\n          Would you like to repeat the experience (Yes[Y]/No[Enter])? ");
-	scanf("%c", &yes_no_check);
+	scanf_s("%c", &yes_no_check);
 	
 	while (yes_no_check == 'y' || yes_no_check == 'Y')
 	{
