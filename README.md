@@ -1,4 +1,7 @@
-# RPG-Fighter-17-Agache-Vladimir
-Test
-RELEASE DONE
-EXECUTABLE READY TO PLAY
+# Project name
+RPG-Fighter-17-Agache-Vladimir
+# Installation
+HERE
+# Credits
+HERE
+
